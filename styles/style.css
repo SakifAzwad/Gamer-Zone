@@ -1,0 +1,124 @@
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.section-title
+{
+    text-align: center;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 10px;
+}
+header {
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    padding: 20px 220px;
+}
+.tit1
+{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.logo1
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+.navbor1
+{
+    border: 2px solid none;
+    border-radius: 8px;
+    margin: -11px;
+    width: 185px;
+    height: 40px;
+    
+    background: rgba(11, 2, 35, 0.10);
+}
+.navbor1-title
+{
+    display: flex;
+    justify-content: left;
+    padding:11px 15px;
+    align-items: center;
+    color: #3C354F;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: normal;
+}
+.YT1{
+    width: 33px;
+    height: 15px;
+}
+.TT1
+{
+    width: 15px;
+    height: 15px;
+}
+
+@media screen and (max-width: 576px) {
+    header {
+        padding: 30px;
+    }
+    nav {
+        flex-direction: column;
+    }
+    nav>ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        gap: 30px;
+    }
+    nav li a {
+        padding: 20px;
+    }
+    .logo{
+        height: 26px;
+    }
+    
+}
+
+@media screen and (min-width:576px) and (max-width: 960px) {
+    header {
+        padding: 50px;
+    }
+    .nav>ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
