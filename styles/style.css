@@ -310,8 +310,273 @@ line-height: 22px; /* 150% */
 .ganner
 {
     display: flex;
+    margin-top: 80px;
+    
+}
+.ganner1
+{
+    width: 40%;
+    text-align: right;
+    margin-top: 120px;
+    margin-right: 120px;
 }
 
+.ganner2{
+    margin-left: 67px;
+}
+.ganner-img1
+{
+    
+    height:500px;
+    width: 500px;
+}
+.ganner-img2
+{
+    
+    height:280px;
+    width: 250px;
+    position: relative;
+    bottom: 200px;
+    right: 120px;
+    border-radius: 8px;
+}
+.ganner-para1
+{
+    text-align: right;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.ganner-para2
+{
+    text-align: right;
+    
+    color: #0B0223;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+}
+.ganner-para3
+{
+    margin-top: 20px;
+    /* margin-left: 200px; */
+    color: #534C64;
+    text-align: right;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+}
+.hanner
+{
+    flex-direction: row-reverse;
+    margin-top: -100px;
+}
+.hanner1
+{
+    width: 40%;
+    text-align: left;
+    margin-top: 120px;
+    margin-right: 40px;
+}
+.hanner-para3
+{
+    text-align: left;
+}
+.hanner-img1
+{
+    margin-left: 150px;
+}
+.hanner-img2
+{
+    position: relative;
+    left: 500px;
+}
+.janner
+{
+    display: flex;
+    margin-top: -80px;
+}
+.janner1
+{
+    background-color: rgba(255, 66, 165, 1);
+    width: 80%;
+}
+.janner-para1
+{
+    color: #FFF;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+    padding-left: 100px;
+    padding-top: 20px;
+}
+.janner-para2
+{
+    padding-left: 100px;
+    color: #FFF;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+.janner2
+{
+    border: 2px solid rgba(255, 66, 165, 1);
+}
+.jannerimg
+{
+    width: 100%;
+}
+.jannermainlist
+{
+    display: flex;
+}
+.jannerlist, .jannerlist2
+{
+    padding-top: 20px;
+    list-style: none;
+    color: #FFF;
+    padding-left:100px;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 200% */
+}
+.jannerlist2
+{
+    text-align: right;
+}
+.panner
+{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap:0px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding-bottom: 100px;
+}
+.panner1
+{
+    margin-left: 90px;
+    margin-top: 80px;
+    display: flex;
+    height: 70px;
+    width: 200px;
+    
+    border-radius: 50px;
+    background: #FFF;
+}
+.panner1:hover
+{
+    border: 1px solid rgba(255, 66, 165, 1);
+    cursor: pointer;
+    
+}
+.panner-para1:hover
+{
+    color: rgba(255, 66, 165, 1);
+    cursor: pointer;
+}
+.panner-para1
+{
+    color: #0B0223;
+    padding: 22px 15px;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+.pannerimg
+{
+    padding: 10px 10px;
+    height: 50px;
+    width: 50px;
+}
+.panner20
+{
+    margin-left: 220px;
+}
+.foot1
+{
+    height: 400px;
+    background-color: #0B0223;;
+}
+.foot2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+.foot3
+{
+    color: #FFF;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.footlist1
+{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.footlist2
+{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.size1
+{
+    height: 30px;
+    width: 30px;
+}
+.footlist3
+{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+
+font-size: 0.7rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+display: flex;
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.footpara
+{
+    margin-top: 40px;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
 @media screen and (max-width: 576px) {
     header {
         padding: 30px;
@@ -430,6 +695,179 @@ line-height: 22px; /* 150% */
         margin-left: 85px;
         gap: 20px;
     }
+    .ganner, .hanner
+    {
+        flex-direction: column;
+    }
+    .ganner1,.hanner1
+    {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        margin-right: 0px;
+    }
+    .ganner2,.hanner2{
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+    .ganner-img1
+    {
+        height:80%;
+        width: 80%;
+    }
+    .ganner-img2
+    {
+        height:180px;
+        width: 120px;
+        position: relative;
+        bottom: 150px;
+        right: 50px;
+        border-radius: 8px;
+    }
+    .ganner-para3
+    {
+        text-align: center;
+    }
+    .hanner-img1
+    {
+        height:80%;
+        width: 80%;
+        margin-left: -50px;
+    }
+    .hanner-img2
+    {
+        height:180px;
+        width: 120px;
+        margin-left: 0;
+        position: relative;
+        left: 140px;
+        bottom: 110px;
+        border-radius: 8px;
+    }
+    .janner{
+        flex-direction: column;
+    }
+    .janner1
+    {
+        width: 100%;
+    }
+    .janner-para1
+{
+    padding-left: 10px;
+}
+.janner-para2
+{
+    font-size: 0.9rem;
+    padding-left: 10px;
+}
+.jannerlist, .jannerlist2
+{
+    padding-left:10px;
+    font-size: 0.7rem;
+}
+.jannerlist2
+{
+    text-align: right;
+    padding-left: 80px;
+}
+.jannerimg
+{
+    width: 100%;
+}
+.panner
+{
+    padding-right: 0;
+}
+.pannerimg
+{
+    padding: 10px 0px;
+    height: 30px;
+    width: 30px;
+}
+.panner1
+{
+    padding-left: 15px;
+    margin-right: 0px;
+    margin-left: 1px;
+    margin-top: 80px;
+    display: flex;
+    height: 45px;
+    width: 120px;
+    
+    border-radius: 50px;
+    background: #FFF;
+}
+.panner-para1
+{
+    margin-right: 0px;
+    color: #0B0223;
+    padding: 12px 15px;
+    font-size: 0.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+.foot1
+{
+    height: 800px;
+}
+.footlist1
+{
+    display: grid;
+    grid-template-columns: repeat(3,50px);
+    grid-template-rows: repeat(2,70px);
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+    list-style: none;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.footlist2
+{
+    display: grid;
+    grid-template-columns: repeat(3,30px);
+    grid-template-rows: repeat(2,70px);
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.footlist3
+{
+    display: grid;
+    grid-template-columns: repeat(2,200px);
+    grid-template-rows: repeat(2,70px);
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.footlist4
+{
+    text-align: center;
+}
+.footpara
+{
+    margin-top: 40px;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#unic::after
+{
+    content: "\a";
+    white-space: pre;
+}
+
 }
 
 @media screen and (min-width:576px) and (max-width: 960px) {
@@ -529,5 +967,180 @@ line-height: 22px; /* 150% */
         margin-left: 85px;
         gap: 20px;
     }
+    .ganner
+    {
+        flex-direction: column;
+    }
+.ganner1
+{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 0px;
+}
+.ganner2{
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-bottom: 200px;
+}
+.ganner-img1
+{
+    
+    height:70%;
+    width: 70%;
+}
+.ganner-img2
+{
+    height:200px;
+    width: 150px;
+    position: relative;
+    bottom: -50px;
+    right: 475px;
+    border-radius: 8px;
+}
+.ganner-para3
+{
+    text-align: center;
+}
+.hanner-img1
+{
+    margin-left: -40px;
+    height:70%;
+    width: 70%;
+}
+.hanner-img2
+{
+    margin-left: 0;
+    height:200px;
+    width: 150px;
+    position: relative;
+    bottom: -80px;
+    left: -80px;
+    border-radius: 8px;
+}
+.janner{
+    flex-direction: column;
+}
+.janner1
+{
+    width: 100%;
+}
+.janner-para1
+{
+padding-left: 10px;
+text-align: center;
+}
+.janner-para2
+{
+    text-align: center;
+font-size: 0.9rem;
+padding-left: 10px;
+}
+.jannerlist, .jannerlist2
+{
+padding-left:180px;
+font-size: 0.7rem;
+}
+.jannerlist2
+{
+text-align: right;
+padding-left: 80px;
+}
+.jannerimg
+{
+padding-left: 0px;
+}
+.panner
+{
+    padding-right: 0;
+}
+.pannerimg
+{
+    padding: 10px 0px;
+    height: 30px;
+    width: 30px;
+}
+.panner1
+{
+    padding-left: 15px;
+    margin-right: 0px;
+    margin-left: 15px;
+    margin-top: 80px;
+    display: flex;
+    height: 45px;
+    width: 120px;
+    
+    border-radius: 50px;
+    background: #FFF;
+}
+.panner-para1
+{
+    margin-right: 0px;
+    color: #0B0223;
+    padding: 12px 15px;
+    font-size: 0.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+.panner20{
+    margin-left: 100px;
+}
+
+.foot1
+{
+    height: 800px;
+}
+.footlist1
+{
+    display: grid;
+    grid-template-columns: repeat(3,50px);
+    grid-template-rows: repeat(2,70px);
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+    list-style: none;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.footlist2
+{
+    display: grid;
+    grid-template-columns: repeat(3,30px);
+    grid-template-rows: repeat(2,70px);
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.footlist3
+{
+    display: grid;
+    grid-template-columns: repeat(2,200px);
+    grid-template-rows: repeat(2,70px);
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.footlist4
+{
+    text-align: center;
+}
+.footpara
+{
+    margin-top: 40px;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
     
 }
