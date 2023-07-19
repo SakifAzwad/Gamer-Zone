@@ -187,7 +187,66 @@ cursor: pointer;
     width: 530px;
     height: 700px;
 }
+.canner
+{
+    display: flex;
+    margin-left: 175px;
+}
+.canner-para1
+{
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    text-align: right;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.canner-para2
+{
+    color: #534C64;
+    text-align: right;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin-right: 15px;
+}
+.canner-para3
+{
+    color: #534C64;
+text-align: right;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: 40px;
+margin-right: 15px;
+}
+.canner-para4
+{
+    color: #534C64;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: 40px;
+margin-right: 15px;
 
+}
+.canner-img
+{
+    width: 580px;
+    height: 500px;
+}
+.btn3
+{
+    margin-bottom: 30px;
+    margin-left: 355px;
+}
 @media screen and (max-width: 576px) {
     header {
         padding: 30px;
@@ -213,7 +272,7 @@ cursor: pointer;
     {
         flex-direction: column-reverse;
     }
-    .img1
+    .img1,.canner-img
     {
         width: 100%;
         height: 100%;
@@ -257,6 +316,34 @@ cursor: pointer;
     .btn
     {
         padding-left: 80px;
+    }
+    .canner{
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .canner-para1,.canner-para2,.canner-para3,.canner-para4{
+        text-align: center;
+    }
+    .canner-para2
+    {
+        font-size: 0.8rem;
+    }
+    .canner-para3
+    {
+        font-size: 1.2rem;
+    }
+    .canner-para4{
+        font-size: 1.5rem;
+    }
+    .canner-img
+    {
+        width: 100%;
+        height: 100%;
+    }
+    .btn3
+    {
+        margin-bottom: 30px;
+        margin-left: 120px;
     }
 }
 
@@ -320,6 +407,34 @@ cursor: pointer;
     .btn
     {
         padding-left: 240px;
+    }
+    .canner{
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .canner-para1,.canner-para2,.canner-para3,.canner-para4{
+        text-align: center;
+    }
+    .canner-para2
+    {
+        font-size: 0.8rem;
+    }
+    .canner-para3
+    {
+        font-size: 1.2rem;
+    }
+    .canner-para4{
+        font-size: 1.5rem;
+    }
+    .canner-img
+    {
+        width: 100%;
+        height: 100%;
+    }
+    .btn3
+    {
+        margin-bottom: 30px;
+        margin-left: 290px;
     }
     
 }
